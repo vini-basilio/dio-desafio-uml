@@ -5,24 +5,24 @@ O desafio pode ser acessado em: https://github.com/digitalinnovationone/trilha-j
 ### Funcionalidades a Modelar
 
 1. Reprodutor Musical
-      - Métodos:
-        - `tocar()`
-        - `pausar()`
-        - `selecionarMusica(String musica)`
+   - Métodos:
+     - `tocar()`
+     - `pausar()`
+     - `selecionarMusica(String musica)`
 2. Aparelho Telefônico
-      - Métodos:
-        - `ligar(String numero)`
-        - `atender()`
-        - `iniciarCorreioVoz()`
+   - Métodos:
+     - `ligar(String numero)`
+     - `atender()`
+     - `iniciarCorreioVoz()`
 3. Navegador na Internet
-      - Métodos:
-        - `exibirPagina(String url)`
-        - `adicionarNovaAba()`
-        - `atualizarPagina()`
+   - Métodos:
+     - `exibirPagina(String url)`
+     - `adicionarNovaAba()`
+     - `atualizarPagina()`
 
 ## Implementação
 
-[![](https://mermaid.ink/img/pako:eNp1kk1v2zAMhv9KwFOGpYGT-KPxYUDRXnZYUWxDD4MvjM06RGXRoKUiS5D_PtVNs7jedOKX3kckdYBSKoIcSoNdd8dYKzaFnYTTRybfqVWpvBP95jsu0UwOb-nX87kjQyWLxVN2-sMp23rS9N6ni0onJer0MtKi7_6GjoW9xN60qGS28jMAnsRyKQOu4TpcPcGsb0jlUhod2YqGOA4ijHorqsTyKPv_kO_xhWqsRL9aR2rJDcC04w3rA9Zsz816NQN4xW8juZcXvNngdPgyj4b3-C7x7zfww1YsDcAYmrQO9VFMsIaaG-Tdx8xZ8aR1dfVlvMtRxXjso5LRfAoLM6iVK8ideppB2EaDry70DRTgttRQAXkwK9TnAgp7DHdatL9EmvdrKr7eQv6Epgueb6uwxdOHPEe13-uteOsgT9ZJLwL5AXaQZ9F8tY6j5SpOs8V1lK1m8BvyYM3TJE6iOOTSOEuPM9j31GierZfZIloskzhOV4t1evwDRZfy2w?type=png)](https://mermaid.live/edit#pako:eNp1kk1v2zAMhv9KwFOGpYGT-KPxYUDRXnZYUWxDD4MvjM06RGXRoKUiS5D_PtVNs7jedOKX3kckdYBSKoIcSoNdd8dYKzaFnYTTRybfqVWpvBP95jsu0UwOb-nX87kjQyWLxVN2-sMp23rS9N6ni0onJer0MtKi7_6GjoW9xN60qGS28jMAnsRyKQOu4TpcPcGsb0jlUhod2YqGOA4ijHorqsTyKPv_kO_xhWqsRL9aR2rJDcC04w3rA9Zsz816NQN4xW8juZcXvNngdPgyj4b3-C7x7zfww1YsDcAYmrQO9VFMsIaaG-Tdx8xZ8aR1dfVlvMtRxXjso5LRfAoLM6iVK8ideppB2EaDry70DRTgttRQAXkwK9TnAgp7DHdatL9EmvdrKr7eQv6Epgueb6uwxdOHPEe13-uteOsgT9ZJLwL5AXaQZ9F8tY6j5SpOs8V1lK1m8BvyYM3TJE6iOOTSOEuPM9j31GierZfZIloskzhOV4t1evwDRZfy2w)
+[![](https://mermaid.ink/img/pako:eNp1kktPwkAQgP8KmRNGIK0UaHswIXjxIDFqPJhehnYoG9udZrpLFMJ_d62ANNU57Ty_eeweUs4IYkgLrOs7hblgmeiek8bSe6JKOLOG5cHWKsWit_9xf8t1TQWlijUevf1nI0rnvbLRri4iDaco_UtLhbb-NR0SfYmdVyhUbPjFAdasVcotbqFyl3qEaVuS8GVpNKQzauOUK6JQFixCil959w95iVvKMWO514ZEk2mB6UOtlDxirvR5WCtFC56pn5UseYvzFfbbnVks1A5PJf7uQT1uWNMJfHYezcPhbfcsnYjuBjshnVETDQPIRWUQG7E0ALfYEr9VaHpJwGyopARi98xQ3hNI9MHlVKjfmMtTmrDNNxCvsaidZqvMHeT4t84hzYUWbLWBOGoqQLyHD4iH09E4Cm-mgT8Og2Dm-ZMBfELs-5NROJl50cwPg3DqRdFhALsG6o2iySzww2no-ZHvBYcvziPiiA?type=png)](https://mermaid.live/edit#pako:eNp1kktPwkAQgP8KmRNGIK0UaHswIXjxIDFqPJhehnYoG9udZrpLFMJ_d62ANNU57Ty_eeweUs4IYkgLrOs7hblgmeiek8bSe6JKOLOG5cHWKsWit_9xf8t1TQWlijUevf1nI0rnvbLRri4iDaco_UtLhbb-NR0SfYmdVyhUbPjFAdasVcotbqFyl3qEaVuS8GVpNKQzauOUK6JQFixCil959w95iVvKMWO514ZEk2mB6UOtlDxirvR5WCtFC56pn5UseYvzFfbbnVks1A5PJf7uQT1uWNMJfHYezcPhbfcsnYjuBjshnVETDQPIRWUQG7E0ALfYEr9VaHpJwGyopARi98xQ3hNI9MHlVKjfmMtTmrDNNxCvsaidZqvMHeT4t84hzYUWbLWBOGoqQLyHD4iH09E4Cm-mgT8Og2Dm-ZMBfELs-5NROJl50cwPg3DqRdFhALsG6o2iySzww2no-ZHvBYcvziPiiA)
 
 ## Código
 

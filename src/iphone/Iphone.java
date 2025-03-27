@@ -5,15 +5,6 @@ public class Iphone implements
         AparelhoTelefonico,
         ReprodutorMusical {
 
-
-    public void aumentarVolume(){
-        System.out.println("Aumentando volume");
-    }
-
-    public void abaixarVolume() {
-        System.out.println("Abaixando volume");
-    }
-
     @Override
     public void ligar(String numero) {
         System.out.println("Ligando para " + numero);
@@ -46,7 +37,7 @@ public class Iphone implements
 
     @Override
     public void selecionarMusica(String musica) {
-        System.out.println("Selecionando música");
+        System.out.println("Selecionando a música " + musica);
     }
 
     @Override
